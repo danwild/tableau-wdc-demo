@@ -1,0 +1,33 @@
+{
+  "name": "tableau-wdc-demo",
+  "version": "1.0.0",
+  "description": "Experimenting with Tableau WDC",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/danwild/tableau-wdc-demo.git"
+  },
+  "keywords": [
+    "tableau",
+    "node",
+    "data"
+  ],
+  "author": "danwild@y7mail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/danwild/tableau-wdc-demo/issues"
+  },
+  "homepage": "https://github.com/danwild/tableau-wdc-demo#readme",
+  "dependencies": {
+    "express": "^4.14.0"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-inject": "^4.1.0",
+    "gulp-nodemon": "^2.1.0"
+  }
+}
